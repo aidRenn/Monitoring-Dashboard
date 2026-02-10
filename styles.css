@@ -11,7 +11,6 @@
     --shadow-header: 0px 11px 22px 0px rgba(0, 0, 0, 0.25);
     
     --font-poppins: 'Poppins', sans-serif;
-    --font-inter: 'Inter', sans-serif;
 }
 
 .bold-title {
@@ -37,15 +36,14 @@ body {
     overflow-x: hidden;
 }
 
-/* --- Utilities --- */
 /* Hide scrollbar but keep scroll functionality */
 .no-scrollbar {
-    -ms-overflow-style: none;  /* IE & Edge */
-    scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .no-scrollbar::-webkit-scrollbar {
-    display: none;             /* Chrome, Safari */
+    display: none;
 }
 
 .text-center { text-align: center; }
@@ -282,7 +280,7 @@ body {
 
 .menu-item.expanded .menu-header {
     height: auto;
-padding-top: 0.7rem;
+    padding-bottom: 0.3rem;
 }
 
 .menu-title {
@@ -353,7 +351,7 @@ padding-top: 0.7rem;
 
 /* --- Ticket Table --- */
 .table-card {
-    height: 378px; /* Matches the 4-card block (180+20+180 + 2 extra margin adjustment) */
+    height: 378px; 
     background: var(--glass);
     padding: 0.5rem 1.25rem 1.25rem;
     display: flex;
@@ -372,9 +370,9 @@ padding-top: 0.7rem;
     flex: 1;
     background: var(--white);
     border: 1px solid #CCCCCC;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 2px;
-    overflow: auto; /* Hide scrollbar if it fits perfectly */
+    overflow: auto; 
 }
 
 .table-wrapper thead th {
@@ -407,9 +405,9 @@ tbody tr {
 tbody tr:last-child { border-bottom: none; }
 
 tbody td {
-    padding: 5px 10px; /* Reduced padding to fit 10 rows */
+    padding: 5px 10px;
     color: var(--primary);
-    font-size: 15px; /* Slightly smaller to ensure fit */
+    font-size: 15px; 
     border-right: 1px solid #CCCCCC;
     white-space: nowrap;
     overflow: hidden;
@@ -421,7 +419,7 @@ tbody td:last-child { border-right: none; }
 
 /* --- Chat Widget --- */
 .chat-card {
-    height: 378px; /* Matches the sidebar menu block */
+    height: 378px;
     background: var(--glass);
     padding: 0.5rem 1.25rem 1.25rem;
     display: flex;
@@ -552,7 +550,6 @@ tbody td:last-child { border-right: none; }
     flex: 1;
     height: 1px;
     background-color: var(--primary);
-    /* opacity: 0.3; */
 }
 
 .footer-content p {
@@ -615,7 +612,6 @@ tbody td:last-child { border-right: none; }
     max-height: 93px; 
     overflow-y: auto;
 }
-
 
 /* hide scrollbar */
 .ticket-list::-webkit-scrollbar {
