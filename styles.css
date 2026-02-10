@@ -305,7 +305,7 @@ body {
 /* Piket Schedule Specifics */
 .shift-info-bar {
     display: flex;
-    height: 27px;
+    height: 29px;
     border-radius: 5px;
     overflow: hidden;
 }
